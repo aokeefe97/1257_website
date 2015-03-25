@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+.navbar {
+	height:40px;
+	text-height:36px;
+	font:Arial, Helvetica, sans-serif;
+	border: 4px solid black;
+}
+
+h1 {
+	text-height:60px;
+	font:Arial, Helvetica, sans-serif;
+	color:#939;
+	text-align:center;
+}
+
+a:hover {
+		
+}
+
+.content {
+	display:none;	
+}
+
+.active .content{
+	display:block;	
+}
+
+.content .active {
+	display:block;	
+}
+
+.home {
+	
+}
+
+.about {
+	
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+<title>Home</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+	$(".about").click(function() {
+		$("button.active").removeClass("active");
+		$("*").removeClass("active");
+		$(".about").addClass("active");
+	});
+	
+	$(".home").click(function() {
+		$("button.active").removeClass("active");
+		$("*").removeClass("active");
+		$(".home").addClass("active");
+	});
+	
+	$(".contact_us").click(function() {
+		$("button.active").removeClass("active");
+		$("*").removeClass("active");
+		$(".contact_us").addClass("active");
+	});
+	
+	$(".sign_in").click(function() {
+		$("button.active").removeClass("active");
+		$("*").removeClass("active");
+		$(".sign_in").addClass("active");
+	});
+	
+	$(".calendar").click(function() {
+		$("button.active").removeClass("active");
+		$("*").removeClass("active");
+		$(".calendar").addClass("active");
+	});
+});
+</script>
+</head>
+
+
+
+<body>
+	<div class="col-lg-offset-2 col-lg-8">
+    	<div class="page-header">
+        	<h1>Team 1257 - Parallel Universe</h1>
+        </div>
+	</div>
+    <div class="col-lg-2">
+    </div>
+    
+    <div class="col-lg-offset-1 col-lg-10">
+    	<div class="btn-group btn-group-justified">
+    	<table style="width:100%;">
+        <tr>
+       	  <td><button type="home" class="btn btn-default btn-lg btn-block home active">Home</button></td>
+            <td><button type="about" class="btn btn-default btn-lg btn-block about">About</button></td>
+            <td><button type="contact_us" class="btn btn-default btn-lg btn-block contact_us">Contact Us</button></td>
+            <td><button type="sign_in" class="btn btn-default btn-lg btn-block sign_in">Sign In</button></td>
+            <td><button type="calendar" class="btn btn-default btn-lg btn-block calendar">Calendar</button></td>
+        </tr>
+        </table>
+        </div>
+    </div>
+    <div class="col-lg-1">
+    </div>
+    
+    <div class="col-lg-12">
+    	<div class="active home">
+        	<p class="content active">Bacon ipsum dolor amet shank turkey picanha tail biltong, pork loin venison spare ribs bacon ball tip t-bone alcatra pork chop pastrami. Spare ribs sirloin frankfurter, pork loin fatback cow andouille. Landjaeger swine beef cow, jowl short loin filet mignon. Bacon pork chop pancetta filet mignon ball tip strip steak. Venison kevin sausage salami cow shank tri-tip ball tip. Tail shoulder shank corned beef porchetta tri-tip meatloaf shankle venison. Swine corned beef pork loin ball tip.
+
+Bacon sirloin spare ribs, doner pork chop kevin boudin jowl brisket. Prosciutto cupim picanha bresaola, fatback venison jowl doner bacon. Capicola landjaeger drumstick cow, spare ribs picanha fatback sirloin ball tip biltong. Turkey spare ribs corned beef short ribs jowl porchetta alcatra pork pastrami capicola kielbasa frankfurter chuck. Turkey ground round turducken jowl swine kevin cow bacon. Strip steak chicken jowl ground round brisket picanha. Pork kevin jowl pancetta pig pork chop.
+
+Sirloin doner biltong, rump venison chuck hamburger ribeye jerky chicken bresaola strip steak kevin corned beef tri-tip. Meatball ground round rump short ribs, shank frankfurter beef capicola leberkas picanha pork belly jerky swine. Kielbasa boudin filet mignon spare ribs hamburger. Porchetta drumstick shank chicken. Drumstick tenderloin venison meatloaf ham porchetta pork chop spare ribs cupim bresaola ground round beef ribs. Beef ribs picanha ham hock flank ham.</p>
+     	</div>
+        <div class="about">
+       	 <p class="content"> Bacon ipsum dolor amet shank turkey picanha tail biltong, pork loin venison spare ribs bacon ball tip t-bone alcatra pork chop pastrami. Spare ribs sirloin frankfurter, pork loin fatback cow andouille. Landjaeger swine beef cow, jowl short loin filet mignon. Bacon pork chop pancetta filet mignon ball tip strip steak. Venison kevin sausage salami cow shank tri-tip ball tip. Tail shoulder shank corned beef porchetta tri-tip meatloaf shankle venison. Swine corned beef pork loin ball tip.
+
+Bacon sirloin spare ribs, doner pork chop kevin boudin jowl brisket. Prosciutto cupim picanha bresaola, fatback venison jowl doner bacon. Capicola landjaeger drumstick cow, spare ribs picanha fatback sirloin ball tip biltong. Turkey spare ribs corned beef short ribs jowl porchetta alcatra pork pastrami capicola kielbasa frankfurter chuck. Turkey ground round turducken jowl swine kevin cow bacon. Strip steak chicken jowl ground round brisket picanha. Pork kevin jowl pancetta pig pork chop.</p>
+		</div>
+        
+        <div class="contact_us">
+        	<p class="content">Lorem ipsum dolor sit amet.</p>
+        </div>
+        
+        <div class="sign_in">
+        	<p class="content">Sign-in page test.</p>
+        </div>
+        
+        <div class="calendar">
+        	<p class="content">Calendar page test.</p>
+        </div>
+    </div>
+</body>
+
+</html>
